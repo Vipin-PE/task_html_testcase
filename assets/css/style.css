@@ -1,0 +1,867 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.position {
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.learn_headbar{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.learn_head_left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 40px;
+}
+
+.learn_elearn{
+    display: flex;
+    align-items: center;
+    color: #0fbbcc;
+}
+
+.learn_image {
+    height: 25px;
+    width: 25px;
+}
+
+.learning {
+    font-size: 30px;
+}
+
+.e {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.learn_head_right{
+    width: 50%;
+    display: flex;
+}
+
+.learn_head_names {
+    width: 50%;
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.learn_head_name {
+    width: 60%;
+    font-size: 12px;
+    font-weight: 400;
+    background-color: #0fbbcc;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.learn_arrow_image{
+    height: 20px;
+    width: 20px;
+}
+
+.active {
+    color: rgb(69, 165, 202)!important;
+}
+
+.learn_background {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../assets/images/pexels-karolina-grabowska-8106624.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.opacity{
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background-color: #463e41;
+    opacity: 0.8;
+}
+
+.learn_background_box{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+.learn_courses {
+    font-weight: 500;
+    color: #0fbbcc;
+}
+
+.learn_header{
+    color: white;
+    font-size: 50px;
+    line-height: 50px;
+    margin: 0;
+}
+
+.learn_head_para{
+    color: white;
+    margin-top: 15px;
+}
+
+.learn_buttons{
+    display: flex;
+    gap: 15px;
+}
+
+.learn__head_btn {
+    background-color: #0fbbcc;
+    border: none;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 150px;
+}
+
+.margin_top {
+    margin-top: 34px;
+}
+
+.active_btn{
+    background-color: white;
+    color: black;
+}
+
+.learn_images{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.lessmore_images{
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px
+}
+
+.less_more{
+    height: 25px;
+}
+
+.learn_container_content {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.learn_content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 100px;
+    width: 85%;
+}
+
+.learn_content_boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.learn_wrapboxes{
+    background-color: #f0fbfc;
+    width: calc(25% - 20px);
+    height: 200px;
+    font-size: 13px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #181d38;
+}
+
+
+.wrap_images {
+    height: 40px;
+    width: 40px;
+}
+
+.learn_aboutbox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about_image {
+    height: 400px;
+    width: 400px;
+}
+
+.learn_about {
+    width: 49%;
+    color: #625f5d;
+    font-size: 13px;
+    line-height: 20px
+}
+
+.learn_about h1 {
+    color: #181d38;
+}
+
+.aboutstyle_box {
+    font-size: 15px;
+    font-weight: 500;
+    color: #0fbbcc;
+    display: flex;
+}
+
+.learn_about_arrow_list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.learn_about_arrow_list li {
+    width: 50%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.double_line {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    justify-content: space-between;
+    padding: 5px 8px;    
+}
+
+.line1 {
+    border: 1px solid #0fbbcc;
+    width: 100%;
+}
+
+.line2 {
+    border: 1px solid #0fbbcc;
+    width: 70%;
+}
+
+.arrow {
+    color: #0fbbcc;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.learn_types {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex_end {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.type {
+    font-size: 15px;
+    font-weight: 500;
+    color: #0fbbcc;
+    display: flex;
+    justify-content: center;
+}
+
+.learn_category_box {
+    height: 400px;
+    margin-top: -97px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1 {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.box2 {
+    width: 43%;
+    background-image: url("../../assets/images/People%20using%20laptop%20stock%20photo%20containing%20analysis%20and%20branding.jpeg");
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.learn_types h2 {
+    margin-top: 0;
+    color: #181d38;
+    font-size: 30px;
+}
+
+.box1_child {
+    background-image: url("../../assets/images/The%20Importance%20of%20Learning%20Spanish.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 48%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.box1_child2 {
+    height: 48%;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.learn_course {
+    background-color: white;
+    text-align: center;
+    padding: 8px;
+    margin: 2px;
+}
+
+.learn_course h4 {
+    margin: 0;
+    color: #181d38;
+}
+
+.learn_course p {
+    margin: 0;
+    font-size: 13px;
+    color: #0fbbcc;
+}
+
+.learn_graphic {
+    background-image: url("../../assets/images/_%20(1).jpeg");
+    background-size: cover;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.learn_editing {
+    background-image: url("../../assets/images/https___albacross_com_newsroom_account-based-marketing-books_.jpeg");
+    background-size: cover;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.popular_img_box {
+    margin-top: -97px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.popular_wrap_box {
+    background-color: #f0fbfc;
+    width: calc(33.33% - 20px);
+}
+
+.wrap_box_img {
+    background-image: url("../../assets/images/Free%20Photo%20_%20Female%20hand%20typing%20on%20keyboard%20of%20laptop.jpeg");
+    height: 250px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.background_img1 {
+    background-image: url("../../assets/images/How%20does%20Content%20Marketing%20help%20to%20Engage%20Audiences%20and%20Build%20Trust_%20-%204%20SEO%20Help.jpeg");
+}
+
+.background_img2 {
+    background-image: url("../../assets/images/How%20to%20Find%20the%20Best%20Coding%20Programs%20for%20Kids.jpeg");
+}
+
+.popular_btn {
+    background-color: #0fbbcc;
+    border-radius: 20px;
+    width: 40%;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.read_btn {
+    color: white;
+    background-color: #0fbbcc;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 50%;
+    border-right: 1px solid white;
+    border: none;
+}
+
+.join_btn {
+    color: white;
+    border: none;
+    border-left: 1px solid white;
+    background-color: #0fbbcc;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 50%;
+}
+
+.popular_wrap_box h4 {
+    color: #181d38;
+    font-size: 23px;
+    text-align: center;
+    margin-top: 15px;
+}
+.popular_wrap_box h3 {
+    color: #181d38;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.stars {
+    font-size: 13px;
+    margin-top: -25px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.star_icon {
+    height: 15px;
+}
+
+.icon_box {
+    border-top: 1px solid #e7eef1;
+    height: 23px;
+    display: flex;
+    gap: 5px;
+}
+
+.icon_height {
+    height: 15px;
+}
+
+.icon {
+    border-right: 1px solid #e7eef1;
+    color: #181d38;
+    font-size: 11px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.border-none {
+    border: none;
+}
+
+.instructor_box {
+    margin-top: -97px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.profile {
+    background-color: #f0fbfc;
+    width: calc(25% - 20px);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 13px;
+    padding-bottom: 25px;
+}
+
+.profile h4 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.instructor {
+    background-image: url("../../assets/images/What%20to%20wear%20for%20corporate%20headshots_%20Men's%20edition%20-%20Retratos%20Barcelona.jpeg");
+    height: 300px;
+    background-size: cover;
+}
+
+.instructor1{
+    background-image: url("../../assets/images/Minneapolis%20Headshots.jpeg");
+}
+
+.instructor2 {
+    background-image: url("../../assets/images/Studio%20Business%20Headshots%20—%20S72%20BUSINESS%20PORTRAITS.jpeg");
+}
+
+.instructor3 {
+    background-image: url("../../assets/images/_%20(2).jpeg");
+}
+
+.social {
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+
+.social_media{
+    box-sizing: border-box;
+    background-color: #f0fbfc; 
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+    height: 100%;
+    width: 40%;
+    gap: 7px;
+}
+
+.media_icons {
+    background-color: #0fbbcc;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.media_icon_height {
+    height: 17px;
+}
+
+.insta_height{
+    height: 23px;
+}
+
+.profession_box {
+    margin-top: -97px;
+    display: flex;
+    gap: 20px;
+}
+
+.profession{
+    background-color: white;
+    width: calc(33.33% - 20px);
+    color: #181d38;
+    font-size: 13px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile_pic {
+    background-image: url("../../assets/images/business%20profile%20picture%20men.jpeg");
+    border-radius: 50%;
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+}
+
+.pic_1 {
+background-image: url("../../assets/images/business%20profile%20picture%20men%20(1).jpeg");
+background-size: cover;
+}
+
+.pic_2 {
+    background-image: url("../../assets/images/Charlotte's%20Studio%20Headshot%20Session.jpeg");
+    background-size: cover;
+}
+
+.profession h3 {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.profession_para {
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.active2 {
+    background-color: #0fbbcc;
+    color: white !important;
+}
+
+.slider_box {
+    margin-top: -85px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.slider{
+    border: 1px solid #e5e5e5;
+    height: 13px;
+    width: 13px;
+}
+
+.slider_active{
+    background-color: #0fbbcc;
+}
+
+.learn_footer {
+    box-sizing: border-box;
+    background: #181d38;
+    margin-top: 90px;
+    padding-bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer{
+    margin-top: 70px;
+    width: 85%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about {
+    width: 25%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about p {
+    margin: 0;
+}
+
+.about h3 {
+    font-size: 20px;
+}
+
+.list {
+    display: flex;
+    gap: 10px;
+}
+
+.round_icon{
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_img {
+    height: 17px;
+}
+
+.footer_round_icon {
+    height: 15px;
+}
+
+.in {
+    font-weight: bold;
+}
+
+.margin_top {
+    margin-top: 15px;
+}
+
+.footer_img_boxes {
+    width: 75%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.img_footer_background {
+    background-image: url("../../assets/images/Free%20Photo%20_%20Female%20hand%20typing%20on%20keyboard%20of%20laptop.jpeg");
+    background-size: cover;
+    background-color: rgb(72, 72, 50);
+    width:calc(33.33% - 10px);
+    height: 50px;
+}
+
+.one {
+    background-image: url("../../assets/images/How%20does%20Content%20Marketing%20help%20to%20Engage%20Audiences%20and%20Build%20Trust_%20-%204%20SEO%20Help.jpeg");
+    background-size: cover;
+}
+
+.two {
+    background-image: url("../../assets/images/How%20to%20Find%20the%20Best%20Coding%20Programs%20for%20Kids.jpeg");
+    background-size: cover;
+}
+
+.three {
+    background-image: url("../../assets/images/How%20does%20Content%20Marketing%20help%20to%20Engage%20Audiences%20and%20Build%20Trust_%20-%204%20SEO%20Help.jpeg");
+    background-size: cover;
+}
+
+.four {
+    background-image: url("../../assets/images/How%20to%20Find%20the%20Best%20Coding%20Programs%20for%20Kids.jpeg");
+    background-size: cover;
+}
+
+.five {
+
+    background-image: url("../../assets/images/Free%20Photo%20_%20Female%20hand%20typing%20on%20keyboard%20of%20laptop.jpeg");
+    background-size: cover;
+}
+
+.footer_email_box{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.footer_email {
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    width: 80%;
+    height: 50px;
+    padding-left: 15px;
+}
+
+.footer_btn {
+    background-color: #0fbbcc;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    border: none;
+    text-align: center;
+    width: 20%;
+    height: 40px;
+    margin-right: 4px;
+}
+
+.hr_box {
+    margin-top: -80px;
+    width: 85%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.hr_box hr {
+    border: 1px solid #242842;
+    width: 100%;
+}
+
+.arrow_box {
+    background-color: #0fbbcc;
+    width: 40px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow_height{
+    height: 20px;
+    opacity: 1;
+}
+
+.footer_bar {
+    width: 85%;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer_names{
+    display: flex;
+}
+
+.border_none {
+    border: none !important;
+}
+
+.bar_names{
+    border-right: 1px solid #242842;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 700px) {
+    .learn_elearn {
+        display: none;
+    }
+    .learn_arrow_image {
+        display: none;
+    }
+    .learn_head_right {
+        width: 80%;
+    }
+    .learn_wrapboxes {
+        width: 45%;
+    }
+    .learn_about {
+        width: 100%;
+    }
+    .popular_wrap_box {
+        width: calc(100% - 20px);
+    }
+    .profile {
+        width: 45%;
+    }
+    .about {
+        width: 45%;
+    }
+    .footer_bar {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 480px) {
+    .popular_btn {
+        width: 42%;
+    }
+}
